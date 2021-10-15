@@ -11,7 +11,7 @@
 Дані за 2018 рік, оцифровані з pdf але потребують валідації. Зараз вони «як є» з виправленням перевернутих координат чи помилок. За можливості, виправляйте неправільно чи не точно розташовані точки.
 
 
-| Регіон                    | Кількість | GeoJSON | Статус |
+| Регіон                    | Кількість об'єктів | GeoJSON file | Статус |
 |---------------------------|:---------:|:---:|:-------:|
 | [Вінницька область](https://land.gov.ua/wp-content/uploads/2018/02/Вінницька_область.7z)        |    925    | [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-vinnytska.geojson)    |         |
 | [Волинська область](https://land.gov.ua/wp-content/uploads/2018/02/Волинська_область.7z)        |    8196   |   [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-volynska.geojson)  |         |
