@@ -61,7 +61,7 @@ PDF файли конвертувались у CSV за допомогою [Tabu
 | Черкаська область         |    385    |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/PZO/geojson/pzo-cherkaska.geojson)   |         |
 | Чернівецька область       |    278    |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/PZO/geojson/pzo-chernivetska.geojson)   |         |
 | Чернігівська область      |    609    |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/PZO/geojson/pzo-chernigivska.geojson)   |         |
-| Автономна республіка Крим |    73     |     |         |
+| Автономна республіка Крим |    73     |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/PZO/geojson/fpzo-ar-krym.geojson)  |         |
 | Всі регіони               |    5468   |     |         |
 
 
