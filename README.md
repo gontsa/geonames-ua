@@ -3,7 +3,8 @@
 
 Державна служба України з питань геодезії, картографії та кадастру опублікувала у 2018 році дані з Державного реєстру географічних назв на підставі Закону України “Про географічні назви” та постанови Кабінету Міністрів України від 11 травня 2006 р. № 622 “Про затвердження Положення про Державний реєстр географічних назв”, наказу Мінагрополітики від 11.06.2014 № 219 «Про затвердження обліково-реєстраційних форм Державного реєстру географічних назв», зареєстрованого у Мін’юсті 24.06.2014 за № 683/25460.
 
-Але є одне але, ці дані у форматі PDF і їх точність через «округлення координат» є досить відносна. Я не є представником державних структур, просто волонтер, який вважає, що ці дані мають бути зручні для використання і за можливості точні. Ці дані будуть корисні для природоохоронних організацій, OpenStreetMap, краєзнавців та багатьох інших зацікавлених сторін.
+
+_Але є одне але, ці дані у форматі PDF і їх точність через «округлення координат» є досить відносна. Я не є представником державних структур, просто зацікавлений волонтер, який вважає, що ці дані мають бути зручні для використання і за можливості максимально точні. Назви та розташування фізико-географічних об'єктів України будуть корисні для природоохоронних організацій, OpenStreetMap маперів, туристів, краєзнавців, картографів та багатьох інших зацікавлених сторін._
 
 #### Як оброблялись дані
 
@@ -19,7 +20,7 @@ PDF файли конвертувались у CSV за допомогою [Tabu
 
 #### Як виправити помилки
 
-За можливості, надсилайте виправлені некоректно розташовані точки (координати, наприклад: `"geometry": { "type": "Point", "coordinates": [ 31.xxxx, 48.xxxx ] }`) у GeoJSON через [Pull requests](https://github.com/gontsa/geonames-ua/pulls). [Детальніше у документації](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). 
+За можливості, надсилайте виправлені некоректно розташовані координати точки у GeoJSON-файлі (наприклад: `"geometry": { "type": "Point", "coordinates": [ 31.xxxx, 48.xxxx ] }`), через [Pull requests](https://github.com/gontsa/geonames-ua/pulls). [Детальніше в документації GitHub](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). 
 
 Таким чином зможемо актуалізувати базу геопросторових даних.
 
@@ -59,7 +60,7 @@ PDF файли конвертувались у CSV за допомогою [Tabu
 | [Харківська область](https://land.gov.ua/wp-content/uploads/2018/02/Харківська_область.7z)        |    1786   |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-kharkivska.geojson)   |         |
 | [Херсонська область](https://land.gov.ua/wp-content/uploads/2018/08/Херсонська_обл.7z)       |    950    |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-khersonska.geojson)   |         |
 | [Хмельницька область](https://land.gov.ua/wp-content/uploads/2018/02/Хмельницька_область.7z)       |    314    |   [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-khmelnytska.geojson)  |         |
-| [Черкаська область](https://land.gov.ua/wp-content/uploads/2018/02/Черкаська_область-1.7z)         |    683    |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-cherkaska.geojson)   |         |
+| [Черкаська область](https://land.gov.ua/wp-content/uploads/2018/02/Черкаська_область-1.7z)         |    683    |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-cherkaska.geojson)   |   в роботі    |
 | [Чернівецька область](https://land.gov.ua/wp-content/uploads/2018/02/Чернівецька_область.7z)       |    736    |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-chernivetska.geojson)   |         |
 | [Чернігівська область](https://land.gov.ua/wp-content/uploads/2018/02/Чернігівська_область.7z)      |    1708   |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-chernigivska.geojson)   |         |
 | [Автономна республіка Крим](https://land.gov.ua/wp-content/uploads/2018/02/Автономна-Республіка-Крим.7z) |    3286   |  [GeoJSON](https://github.com/gontsa/geonames-ua/blob/main/geojson/fiz-geo-ar-krym.geojson)   |         |
